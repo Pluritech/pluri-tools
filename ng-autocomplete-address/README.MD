@@ -12,6 +12,7 @@ $ npm install @pluritech/ng-autocomplete-address --save
 ```xml
   <!-- index.html -->
 <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script>
+```
 
 ## Consuming your library
 
