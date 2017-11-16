@@ -14,14 +14,6 @@ $ npm install @pluritech/ng-autocomplete-address --save
 <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script>
 ```
 
-## Consuming your library
-
-Once you have published your library to npm, you can import your library in any Angular application by running:
-
-```bash
-$ npm install ng-autocomplete-address
-```
-
 and then from your Angular `AppModule`:
 
 ```typescript
@@ -55,7 +47,7 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<input autoCompleteAddress >  </input>
+<input autoCompleteAddress />
 ```
 
 ## Development
