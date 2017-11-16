@@ -1,12 +1,17 @@
-# ng-autocomplete-address
+# Directive to autocomplete address using Google API
 
 ## Installation
 
-To install this library, run:
+To install:
 
 ```bash
 $ npm install @pluritech/ng-autocomplete-address --save
 ```
+
+## Include script maps.googleapis.com
+```xml
+  <!-- index.html -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script>
 
 ## Consuming your library
 
@@ -49,7 +54,7 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<input autoCompleteAddress >  </input>
 ```
 
 ## Development

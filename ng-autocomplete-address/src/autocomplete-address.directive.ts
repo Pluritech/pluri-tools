@@ -21,7 +21,9 @@ export class AutoCompleteAddressDirective {
 
   private _loadLocations(value: string): void {
     this.predictionsSubject.next([]);
-    if(!value) return;
+    if (!value) {
+      return;
+    }
     this.loadingPredictions = true;
     this.ngZone.runOutsideAngular(() => this._getPlaces(value));
   }

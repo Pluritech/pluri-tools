@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { SampleModule }  from 'ng-autocomplete-address';
+import { AutoCompleteAddressModule } from 'index';
 
 @Component({
   selector: 'app',
@@ -17,7 +17,7 @@ class AppComponent {}
 @NgModule({
   bootstrap: [ AppComponent ],
   declarations: [ AppComponent ],
-  imports: [ BrowserModule, SampleModule ]
+  imports: [ BrowserModule, AutoCompleteAddressModule ]
 })
 class AppModule {}
 
