@@ -1,5 +1,5 @@
 {
-  "name": "ng-autocomplete-address",
+  "name": "@pluritech/ng-autocomplete-address",
   "version": "0.1.0",
   "scripts": {
     "build": "gulp build",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pluritech/ion-facebook-provider"
+    "url": "https://github.com/Pluritech/pluri-directives"
   },
   "author": {
     "name": "Lucas Correa",
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pluritech/ion-facebook-provider/issues"
+    "url": "https://github.com/Pluritech/pluri-directives/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
