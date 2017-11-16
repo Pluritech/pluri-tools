@@ -1,0 +1,28 @@
+{
+  "name": "@pluritech/ng-autocomplete-address",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pluritech/pluri-directives"
+  },
+  "author": {
+    "name": "Lucas Correa",
+    "email": "lucasccorrea@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pluritech/pluri-directives/issues"
+  },
+  "main": "ng-autocomplete-address.umd.js",
+  "module": "ng-autocomplete-address.js",
+  "jsnext:main": "ng-autocomplete-address.js",
+  "typings": "ng-autocomplete-address.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
