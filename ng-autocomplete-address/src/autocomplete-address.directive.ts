@@ -50,7 +50,12 @@ export class AutoCompleteAddressDirective {
 
   private _getObservableEvent(): Observable<String> {
     return Observable.fromEvent(this.inputEl, 'input')
-      .map(() => (<HTMLInputElement>this.inputEl.firstElementChild).value)
+      .map(() => {
+        if (this.inputEl.firstElementChild) {
+          return (<HTMLInputElement>this.inputEl.firstElementChild).value;
+        }
+        return this.inputEl.value;
+      })
       .debounceTime(500)
       .distinctUntilChanged();
   }
