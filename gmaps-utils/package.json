@@ -1,0 +1,26 @@
+{
+  "name": "@pluritech/gmaps-utils",
+  "version": "1.0.5",
+  "description": "One class with methods to work with google places",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/rimraf ./dist && ./node_modules/.bin/tsc -p tsconfig.json && cp ./package.json ./dist",
+    "publish2": "npm publish ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "googlemaps",
+    "maps",
+    "places",
+    "typescript"
+  ],
+  "author": "Lucas Corrêa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/googlemaps": "^3.30.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.1"
+  }
+}
