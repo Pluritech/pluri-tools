@@ -9,4 +9,4 @@ A set of tools to use in Angular and/or Ionic projects
 
 ## Classes Utils
 
-* [ng-autocomplete-address](https://github.com/Pluritech/pluri-tools/tree/master/gmaps-utils) - Class Utils to work google places.
+* [gmaps-utils](https://github.com/Pluritech/pluri-tools/tree/master/gmaps-utils) - Class Utils to work google places.
