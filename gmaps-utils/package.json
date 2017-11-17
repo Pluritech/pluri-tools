@@ -1,11 +1,12 @@
 {
   "name": "@pluritech/gmaps-utils",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "One class with methods to work with google places",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "build": "./node_modules/.bin/rimraf ./dist && ./node_modules/.bin/tsc -p tsconfig.json && cp ./package.json ./dist",
-    "publish2": "npm publish ./dist",
+    "buildOld": "./node_modules/.bin/rimraf ./dist && ./node_modules/.bin/tsc -p tsconfig.json && cp ./package.json ./dist",
+    "build": "./node_modules/.bin/rimraf ./dist && mkdir dist && cp ./lib/* ./dist && cp ./package.json ./dist",
+    "publishMe": "npm publish ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
