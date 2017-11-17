@@ -50,7 +50,6 @@ export class GmapsUtils {
         shortName: c.short_name
       }
     });
-    console.log(keyComponents);
     return keyComponents;
   }
 
